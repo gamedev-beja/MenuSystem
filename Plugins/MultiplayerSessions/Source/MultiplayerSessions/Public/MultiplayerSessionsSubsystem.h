@@ -44,7 +44,7 @@ protected:
 
 private:
 	IOnlineSessionPtr SessionInterface;
-
+	TSharedPtr<FOnlineSessionSettings> LastSessionSettings;
 	//To add to the online session interface list.
 	//We'll bing our MultiplayerSessionSubsystem internal callbacks to these.
 	//
